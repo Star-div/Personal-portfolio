@@ -12,7 +12,7 @@ const Navbar = () => {
             <a href="#" className='mr-6 flex items-center space-x-2'>
                 <img src={Logo} alt="" className='h-24 md:h-28'/>
             </a>
-            <nav className='md:flex items-center space-x-6 text-lg font-medium'>
+            <nav className='md:flex invisible md:visible items-center space-x-6 text-lg font-medium'>
                 <a href="#about" className='transition-colors hover:text-red-500 '>About</a>
                 <a href="#projects" className='transition-colors hover:text-red-500 '>Projects</a>
                 <a href="#contact" className='transition-colors hover:text-red-500 '>Contact</a>
