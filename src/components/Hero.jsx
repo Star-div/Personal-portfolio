@@ -14,7 +14,7 @@ const Hero = () => {
     <section className='relative bg-gray-100 bg-gradient-to-tl from-transparent via-transparent to-red-200'>
       <div className=' max-w-7xl mx-auto'>
         <div className='flex flex-col md:flex-row items-center lg:h-[90vh] justify-between' >
-            <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-0 lg:mt-0 mt-10'>
+            <div className='md:w-1/2 mb-8 md:mb-0 flex flex-col space-y-4 px-6 lg:px-6 lg:mt-0 mt-10'>
                <h1 className='lg:text-7xl text-4xl font-bold lg:leading-snug'>Hi There, <br />I'm Saqib <span className='text-red-500'>Malik</span></h1>
                <p className='md:text-2xl text-xl mb-4'>Full-Stack Web Developer & Designer</p>
                <p className='mb-4'>I'm a passionate web developer with expertise in React, Next.js, and modern web technologies. I love creating beautiful and functional website that solve real world problems.</p>
@@ -32,8 +32,8 @@ const Hero = () => {
                 <img src={github} alt="" className='h-10 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300'/></a>
               </div>
             </div>
+
             <div className='md:w-1/2 relative flex justify-center items-end'>
-                
                  <img src={hero} alt="" className='lg:h-[90vh]  h-96 '/>
                  <img src={reactLogo} alt="" className='absolute w-10 top-36 left-0 rounded-full md:hidden'/>
                  <img src={reduxLogo} alt="" className='absolute w-10 top-0 right-5 md:hidden'/>

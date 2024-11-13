@@ -4,7 +4,8 @@ const Footer = () => {
   return (
     <footer className='bg-gray-100 py-4 relative'>
       <div className='container mx-auto px-4 text-center'>
-        <p>&copy; 2024 stardev.services . All rights reserved</p>
+        <p>© 2024 StarDev Services. All Rights Reserved.
+        </p>
       </div>
     </footer>
   )
