@@ -34,10 +34,10 @@ const Hero = () => {
             </div>
             <div className='md:w-1/2 relative flex justify-center items-end'>
                 
-                 <img src={hero} alt="" className='lg:h-[90vh] h-96 md:scale-x-[-1] '/>
+                 <img src={hero} alt="" className='lg:h-[90vh]  h-96 '/>
                  <img src={reactLogo} alt="" className='absolute w-10 top-36 left-0 rounded-full md:hidden'/>
                  <img src={reduxLogo} alt="" className='absolute w-10 top-0 right-5 md:hidden'/>
-                 <img src={tailwind} alt="" className='absolute w-10 rounded-full right-1 bottom-36 md:hidden'/>
+                 <img src={tailwind} alt="" className='absolute w-10 rounded-full right-0 bottom-44 md:hidden'/>
             </div>
         </div>
       </div>
