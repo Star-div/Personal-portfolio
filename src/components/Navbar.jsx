@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className=' max-w-7xl mx-auto flex h-14 items-center'>
         <div className='md:mr-4 flex justify-between w-full'>
             <a href="#" className='mr-6 flex items-center space-x-2'>
-                <img src={Logo} alt="" className='h-28'/>
+                <img src={Logo} alt="" className='h-28 w-56'/>
             </a>
             <nav className='md:flex invisible md:visible items-center space-x-6 text-lg font-medium'>
                 <a href="#about" className='transition-colors hover:text-red-500 '>About</a>
