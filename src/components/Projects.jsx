@@ -1,6 +1,7 @@
 import React from 'react'
 import Portfolio from '../assets/Portfolio.png'
 import CurrencyConvertor from '../assets/CurrencyConvertor.png'
+import Ecommerce from "../assets/Ecommerce.png"
 import BMI from '../assets/BMI.png'
 import Cards from './Cards'
 
@@ -10,6 +11,14 @@ const Projects = () => {
     const projectJson = [
         {
           id:1,
+          title: 'Ecommerce Website ',
+          desc: 'Its a Beautifull, and Trandy E-commerce Website using React And Tailwind with Beautiful Light and Dark Theme. ',
+          image: Ecommerce,
+          live: "https://e-commerce--mocha.vercel.app/",
+          github: "https://github.com/Star-div/E-commerce.git"
+        },
+        {
+          id:2,
           title: 'Landing Page With Light and Dark Themes ',
           desc: 'I created a beautiful Landing Page with Animated Photo on hover And also add Light and Dark Theme in it using HTML, CSS, and JavaScript . ',
           image: Portfolio,
@@ -17,7 +26,7 @@ const Projects = () => {
           github: "https://github.com/Star-div/Landing-Page-With-light-and-Dark-theme.git"
         },
         {
-          id:2,
+          id:3,
           title: 'Currency Converter',
           desc: 'I built a fully functional Currency-Converter App Using React. You can convert any currency to any other one easily.',
           image: CurrencyConvertor,
@@ -26,7 +35,7 @@ const Projects = () => {
         },
         
         {
-          id:3,
+          id:4,
           title: 'BMI Calculator',
           desc: 'I developed a BMI calculator with sleak and minimal design using HTML, CSS, and JavaScript.',
           image: BMI,
