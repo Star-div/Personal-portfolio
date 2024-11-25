@@ -12,7 +12,7 @@ const Projects = () => {
         {
           id:1,
           title: 'Ecommerce Website ',
-          desc: 'Its a Beautifull, and Trandy E-commerce Website using React And Tailwind with Beautiful Light and Dark Theme. ',
+          desc: 'Its a Beautifull, and Trandy E-commerce Website using React And Tailwind CSS with Beautiful Light and Dark Theme. ',
           image: Ecommerce,
           live: "https://e-commerce--mocha.vercel.app/",
           github: "https://github.com/Star-div/E-commerce.git"
