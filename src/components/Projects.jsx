@@ -24,7 +24,7 @@ const Projects = () => {
       live: "https://star-div.github.io/Landing-Page-With-light-and-Dark-theme/",
       github:
         "https://github.com/Star-div/Landing-Page-With-light-and-Dark-theme.git",
-      aosDelay: "400",
+      aosDelay: "200",
     },
     {
       id: 3,
@@ -33,7 +33,7 @@ const Projects = () => {
       image: CurrencyConvertor,
       live: "https://currency-convertor-seven-taupe.vercel.app/",
       github: "https://github.com/Star-div/currencyConvertor.git",
-      aosDelay: "800",
+      aosDelay: "400",
     },
 
     {
@@ -43,7 +43,7 @@ const Projects = () => {
       image: BMI,
       live: "https://star-div.github.io/BMI-Calculator/",
       github: "https://github.com/Star-div/BMI-Calculator.git",
-      aosDelay: "1200",
+      aosDelay: "200",
     },
   ];
 
@@ -57,7 +57,6 @@ const Projects = () => {
           {projectJson.map((items) => {
             return (
               <Cards
-                data-aos-delay={items.aosDelay}
                 key={items.id}
                 item={items}
               />

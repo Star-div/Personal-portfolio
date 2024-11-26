@@ -3,7 +3,7 @@ import Github from '../assets/Github.png'
 
 const Cards = ({ item }) => {
     return (
-        <div data-aos="fade-up" className='border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50'>
+        <div data-aos="fade-up" data-aos-delay={item.aosDelay} className='border border-red-500 rounded-lg w-[350px] lg:w-[400px] bg-red-50'>
             <img src={item.image} alt="" className='rounded-lg' />
             <div className='p-4'>
                 <h1 className='font-semibold text-xl mb-2'>{item.title}</h1>
