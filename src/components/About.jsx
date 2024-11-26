@@ -24,16 +24,16 @@ const About = () => {
                             A Full-Stack Developer with expertise in web development, SEO, and the MERN stack.
                         </p>
                     </div>
-                    <div className='mt-10'>
+                    <div  className='mt-10'>
                         <div className='grid grid-cols-1 gap-12 lg:grid-cols-2'>
-                            <div>
+                            <div data-aos="fade-right">
                                 <h3 className='text-2xl font-semibold text-gray-900'>My Journey</h3>
                                 <p className='mt-4 text-lg text-gray-600'>
                                     I started my journey in web development with a passion for creating intuitive and scalable applications. With proficiency in the MERN stack (MongoDB, Express.JS, React, and Node.JS), I have built many Full Stack Projects. My projects demonstrate my ability to integrate poweful backend solutions with sleek, user-friendly frontend designs.
                                 </p>
                                 <img src={MernStack} alt="" className='p-2 rounded-lg w-52 mt-4' />
                             </div>
-                            <div className='border border-red-200 rounded-lg md:p-7 py-7  flex flex-col gap-8 items-center shadow-lg shadow-red-300'>
+                            <div data-aos="zoom-in" className='border border-red-200 rounded-lg md:p-7 py-7  flex flex-col gap-8 items-center shadow-lg shadow-red-300'>
                                 <h3 className='text-2xl font-semibold text-red-600'>Skills & Expertise</h3>
                                 <div className='flex items-center justify-center flex-wrap gap-3'>
                                     <div className='border border-red-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-red-300'>
@@ -84,7 +84,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-12'>
+                    <div data-aos="fade-right" className='mt-12'>
                         <h3 className='text-2xl font-semibold text-gray-900'>More About Me</h3>
                         <p className='mt-4 text-lg text-gray-600'>
                             Apart from coding, I am passionate about learning new technologies and keeping myself up-to-date with the latest trends in web development. I aslo have keen interest in Blockchain technology and cryptography.

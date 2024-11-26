@@ -102,7 +102,7 @@ const Contact = () => {
             />
           </div>
 
-          <form
+          <form data-aos="fade-up"
             ref={formRef}
             onSubmit={onSubmit}
             className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-red-300 shadow-lg shadow-red-500 p-10"
